@@ -5,3 +5,53 @@ body {
   font-family: "Poppins", sans-serif;
   font-family: "The Nautigal", cursive;
 }
+.carousel img {
+  object-fit: cover;
+  height: 80vh;
+}
+.packeg {
+  border-radius: 26px;
+  position: relative;
+  transition: 0.3s;
+}
+.packeg ul > li,
+.packeg p {
+  list-style-type: none;
+  color: #848199;
+}
+.packeg svg {
+  color: #5243c2;
+  background-color: #5243c217;
+}
+.packeg:hover svg {
+  background-color: #5a8fdfec;
+  color: white;
+}
+.packeg button {
+  background-color: #f496d21a;
+}
+.packeg:hover p,
+.packeg:hover li {
+  color: white;
+}
+.packeg:hover {
+  color: white;
+  background-color: #3f87f5;
+  top: -10px;
+}
+.packeg:hover button {
+  background-color: white;
+  border: none;
+}
+.hot-packeg {
+  position: relative;
+}
+.hot-packeg h6 {
+  padding: 3px 7px;
+  color: white;
+  background-color: #ff4e4e;
+  position: absolute;
+  right: 20px;
+  top: -12px;
+  border-radius: 20px;
+}
