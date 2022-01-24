@@ -12,7 +12,6 @@ body {
 .packeg {
   border-radius: 26px;
   position: relative;
-  transition: 0.3s;
 }
 .packeg ul > li,
 .packeg p {
@@ -37,7 +36,7 @@ body {
 .packeg:hover {
   color: white;
   background-color: #3f87f5;
-  top: -10px;
+  top: -15px;
 }
 .packeg:hover button {
   background-color: white;
@@ -47,7 +46,7 @@ body {
   position: relative;
   color: white;
   background-color: #3f87f5;
-  top: -10px;
+  top: -15px;
 }
 
 .hot-packeg h6 {
@@ -58,4 +57,8 @@ body {
   right: 20px;
   top: -12px;
   border-radius: 20px;
+}
+footer {
+  color: #d9dbe1;
+  background-color: #0b0d17;
 }
