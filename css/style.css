@@ -45,7 +45,11 @@ body {
 }
 .hot-packeg {
   position: relative;
+  color: white;
+  background-color: #3f87f5;
+  top: -10px;
 }
+
 .hot-packeg h6 {
   padding: 3px 7px;
   color: white;
