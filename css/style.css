@@ -1,3 +1,4 @@
+/* google font  */
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@500;700&family=The+Nautigal:wght@700&display=swap");
 
 body {
@@ -9,55 +10,39 @@ body {
   object-fit: cover;
   height: 80vh;
 }
-.packeg {
+/* our package css  */
+.Package {
   border-radius: 26px;
-  position: relative;
 }
-.packeg ul > li,
-.packeg p {
+.Package ul > li,
+.Package p {
   list-style-type: none;
   color: #848199;
 }
-.packeg svg {
+.Package svg {
   color: #5243c2;
   background-color: #5243c217;
 }
-.packeg:hover svg {
-  background-color: #5a8fdfec;
-  color: white;
-}
-.packeg button {
+.Package button {
   background-color: #f496d21a;
 }
-.packeg:hover p,
-.packeg:hover li {
-  color: white;
-}
-.packeg:hover {
+/* hot mark package css  */
+.hot-Package {
   color: white;
   background-color: #3f87f5;
-  top: -15px;
+  top: -30px;
 }
-.packeg:hover button {
+.hot-Package svg {
+  color: white;
+}
+.hot-Package p,
+.hot-Package ul > li {
+  color: white;
+}
+.hot-Package button {
   background-color: white;
-  border: none;
 }
-.hot-packeg {
-  position: relative;
-  color: white;
-  background-color: #3f87f5;
-  top: -15px;
-}
-
-.hot-packeg h6 {
-  padding: 3px 7px;
-  color: white;
-  background-color: #ff4e4e;
-  position: absolute;
-  right: 20px;
-  top: -12px;
-  border-radius: 20px;
-}
+/* footer css  */
 footer {
   color: #d9dbe1;
   background-color: #0b0d17;
